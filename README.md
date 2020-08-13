@@ -14,9 +14,9 @@ Requirements:
   
   ● The class should support “++” and “--” operators (both postfix and prefix)
   
-    ○ A “++” call should increase all marks of each subject by 10.
+    1. A “++” call should increase all marks of each subject by 10.
   
-    ○ A “--” call should decrease all marks of each subject by 20.
+    2. A “--” call should decrease all marks of each subject by 20.
   
   ● The class should support “+=” and “-=”, which affect all grades of the object.
   
@@ -24,9 +24,9 @@ Requirements:
   
   ● After any operation, marks for any subject should stay within the range of 0 and 100:
   
-    ○ If after any operation, marks for any subject are exceeding 100 then your code should simply set the marks of that particular subject as 100.
+    1. If after any operation, marks for any subject are exceeding 100 then your code should simply set the marks of that particular subject as 100.
     
-    ○ Similarly, if after any operation the mark of any subject below is 0 then your code should just set the marks of that particular subject to 0.
+    2. Similarly, if after any operation the mark of any subject below is 0 then your code should just set the marks of that particular subject to 0.
   
   ● Print(), which returns a string that contains all marks and can later be used to print the marks.
   
